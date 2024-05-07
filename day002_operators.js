@@ -1,15 +1,8 @@
-let mealCost = 100
-let tipPercentage = 15
-let taxPercentage = 8
-
-
 solve = (mealCost, tipPercentage, taxPercentage) => {
-    let tipAmount = mealCost * (tipPercentage / 100)
-    let taxAmount = mealCost * (taxPercentage / 100) 
-    let totalBill = mealCost + tipAmount + taxAmount
-
-    console.log(totalBill.toFixed(2));
-    return
+    function solve(meal_cost, tip_percent, tax_percent) {
+        let tip = meal_cost * (tip_percent/100)
+        let tax = meal_cost * (tax_percent/100)
+        let total = meal_cost + tip + tax
+        console.log(total.toFixed(0))
+    }
 }
-
-solve(mealCost,tipPercentage,taxPercentage)
