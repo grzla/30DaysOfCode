@@ -14,6 +14,7 @@
  */
 
 function processData(input) {
+
     const arr = input.split('\n')
     const numInputs = arr[0]
     const phonebook = new Map()
