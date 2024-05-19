@@ -81,3 +81,15 @@ function main() {
     }
     console.log(max)
 }
+
+/** chatgpt solution
+let max = -63;
+for (let y = 0; y <= ydomain; y++) {
+    for (let x = 0; x <= xdomain; x++) {
+        let sum = arr[y][x] + arr[y][x+1] + arr[y][x+2]
+                            + arr[y+1][x+1] +
+                  arr[y+2][x] + arr[y+2][x+1] + arr[y+2][x+2];
+        max = Math.max(max, sum);
+    }
+}
+ */
