@@ -2,6 +2,8 @@
 echo "3\n3 2 1" | node day020_sorting.js
 */
 
+// O(n^2) time complexity
+
 'use strict';
 
 process.stdin.resume();
